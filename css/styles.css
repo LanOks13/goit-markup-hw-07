@@ -81,6 +81,12 @@ img {
   border-bottom: 1px solid var(--border-header-box);
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -105,7 +111,7 @@ img {
 .list-contact {
   display: flex;
   align-items: center;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 /* 1-й спосіб відступу елементів один від одного */
@@ -583,11 +589,17 @@ img {
   padding-bottom: var(--padding-footer);
 }
 
-.footer-row {
+/* .footer-row {
   display: flex;
   align-items: baseline;
-}
+} */
 
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
 /* ============= FOOTER - Address ============= */
 .footer-address {
   display: inline-block;
